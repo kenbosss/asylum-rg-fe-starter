@@ -41,16 +41,56 @@
     font-size: 1.2rem;
 }
 
-// .graphs-section {
-//  ADD THIS BACK IN WHEN YOU HAVE THE GRAPHS SECTION
-// }
-
+.graphs-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.grant-rates-by-office-graph-container {
+    text-align: center;
+    height: 165px;
+    font-size: 1.5rem;
+    font-family: 'acumin';
+}
+.gr-office-img {
+    height: 165px;
+    width: 320px;
+    margin-bottom: 10%;
+}
+.grant-rates-by-nationality-container {
+    text-align: center;
+    margin-bottom: 3%;
+    margin-left: -15px;
+    font-size: 1.5rem;
+    font-family: 'acumin';
+}
+.gr-nationality-img {
+    height: 175px;
+    width: 200px;
+    margin-bottom: 7%;
+    margin-left: -15px;
+}
+.grant-rates-over-time-container {
+    text-align: center;
+    height: 165px;
+    font-size: 1.5rem;
+    font-family: 'acumin';
+}
+.gr-overtime-img {
+    height: 165px;
+    width: 300px;
+    margin-bottom: 10%;
+}
 .view-more-data-btn-container {
     height: 44px;
     width: 180px;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
     margin-bottom: 10%;
+    align-items: center;
+    justify-content: center;
+}
+.view-more-data-btn-container button {
+    margin: 0 12px ;
 }
 
 .middle-section {
@@ -75,9 +115,58 @@
     font-size: 1.4rem;
 }
 
-// .bottom-section {
-//      ADD THIS BACK IN WHEN YOU HAVE A BOTTOM SECTION
-// }
+.bottom-section {
+    margin-top: 160px;
+    text-align: center;
+    
+    
+}
+.bottom-section h1{
+    font-family: "moneta";
+    font-size: 3.5rem;
+    margin-bottom: 10%
+}
+
+.data-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top: -10px;
+}
+.read-button{
+    display: flex;
+    margin-bottom: 2%;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.first-data-point-container{
+
+    text-align: center;
+    font-family: 'acumin';
+    font-size: 20px;
+
+}
+.first-data-point-container p{
+    font-size: 50px;;
+}
+.second-data-point-container{
+    text-align: center;
+    font-family: 'acumin';
+    font-size: 20px;
+}
+.second-data-point-container p{
+    font-size: 50px;
+}
+.third-data-point-container{
+    text-align: center;
+    font-family: 'acumin';
+    font-size: 20px;
+}
+.third-data-point-container p{
+    font-size: 50px;
+}
 
 .back-to-top {
     width: 8%;
@@ -85,6 +174,8 @@
     cursor: pointer;
     color: black;
     margin: 5% auto;
+    align-items: center;
+    justify-content: center;
 }
 
 .ant-space-align-center {
@@ -191,7 +282,9 @@
     .first-data-point-container {
         width: 85%;
         margin-bottom: 5%;
+        font-family: ;
     }
+    
 
     .second-data-point-container {
         width: 85%;
@@ -303,6 +396,7 @@
     .first-data-point-container {
         width: 85%;
         margin-bottom: 5%;
+        justify-content: center;
     }
 
     .second-data-point-container {
